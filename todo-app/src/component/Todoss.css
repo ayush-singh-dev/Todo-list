@@ -1,0 +1,117 @@
+.todo-main-body {
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px;
+  border-radius: 50px;
+  z-index: 10;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  /* backdrop-filter: blur(25px); */
+  box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.25);
+  box-sizing: border-box;
+}
+
+.todo-list {
+  color: white;
+  margin-top: -10px;
+  display: flex;
+  font-weight: 900;
+  letter-spacing: 16px;
+  font-size: 34px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* background-color: aqua; */
+}
+
+.input-add {
+  margin-top: 36px;
+}
+
+.input-text {
+  width: 364px;
+  height: 30px;
+  border-radius: 10px;
+  border-bottom-color: black;
+  border-right-color: black;
+}
+
+.add {
+  border-left-color: black;
+  border-top-color: black;
+  width: 79px;
+  height: 34px;
+  margin-left: 6px;
+  padding: 8px;
+  border-left-color: black;
+  border-top-color: black;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.your-list {
+  color: white;
+  margin-top: 56px;
+  margin-bottom: 30px;
+  letter-spacing: 14px;
+}
+
+.list-items {
+  display: flex;
+  margin-bottom: -40px;
+}
+
+.items {
+  margin-top: 0px;
+  border: 2px solid white;
+  background-color: white;
+  width: 535px;
+  height: 40px;
+  margin-bottom: 70px;
+  border-radius: 15px;
+  text-align: inherit;
+  padding-top: 11px;
+  padding-left: 23px;
+  font-size: 26px;
+}
+
+.delete-it {
+  /* margin-left: 1px; */
+  margin-top: 0px;
+  /* margin-bottom: 69px; */
+  border-radius: 17px;
+  border-top-color: black;
+  border-left-color: black;
+  width: 75px;
+  height: 55px;
+  margin-left: 4px;
+  padding: 9px;
+  cursor: pointer;
+}
+
+.remove-all {
+  width: 177px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 30px;
+  border-radius: 19px;
+  border-top-color: black;
+  border-left-color: black;
+  cursor: pointer;
+}
+
+
+.scroll-bar{
+  height: 224px;
+overflow: auto;
+padding: 10px;
+}
+
+
+
+
+
+
+
+
+
